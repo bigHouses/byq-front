@@ -1,0 +1,22 @@
+.container{width: 100%;background: url("../images/container_bg.png") no-repeat center center;background-size: cover;height: 100%;}
+.container .login-box{width: 380px;height: 330px;background-color: #fff;float: right;margin-top: 185px;margin-right: 340px;}
+.container .login-box .login-process form{padding-left: 24px;}
+.container .login-box .login-process .title{height: 77px;line-height: 77px;font-size: 20px;}
+.container .login-box .login-process p{margin-bottom: 13px;}
+.container .login-box .login-process input{width: 330px;height: 40px;line-height: 40px;border: 1px solid #d7d8d9;padding-left: 18px;}
+.container .login-box .login-process input.qr-code{width: 175px;margin-right: 30px;}
+.container .login-box .login-process .countdown{width: 120px;height: 40px;line-height: 40px;text-align: center;color: #fff;background-color: #5497e1;cursor: pointer;}
+/* .container .login-box .login-process .rem-psw,.container .login-box .login-process .check{padding-left: 20px;background: url("../images/uncheck.png") no-repeat 0 center;cursor: pointer;color: #909090;margin: 10px 0;} */
+/* .container .login-box .login-process .check{background-image: url("../images/check.png");} */
+.container .login-box .login-process .login-btn{color: #fff;width: 330px;height: 40px;line-height: 40px;text-align: center;background-color: #5497e1;border: 0;outline: none;padding: 0;cursor: pointer;}
+.container .login-box .login-process .error-tip{height: 34px;line-height: 34px;font-size: 14px;color: #ff3030;text-align: center;width: 330px;}
+.container .login-box .login-process .send-tip{height: 24px;line-height: 24px;color: #ff3030;font-size: 14px;display: block;}
+.container .login-box .login-process .forger-psw{display: block;border-top: 1px solid #d7d8d9;height: 44px;line-height: 44px;text-align: right;padding-right: 26px;}
+.container .login-box .login-process .forger-psw span{padding-right: 29px;background: url("../images/icon-right.png") no-repeat right center;color: #909090;font-size: 14px;cursor:pointer;}
+.container .login-box .login-process .forger-psw .back{background: url('../images/icon-back.png') no-repeat right center;}
+.container .login-box .login-process .reset-psw-succeed{height: 142px;line-height: 142px;text-align: center;font-size: 20px;border-bottom: 1px solid #d7d8d9;}
+.container .login-box .login-process .reset-psw-succeed .icon-succeed{margin-right: 22px;}
+.container .login-box .login-process .succeed-tip{padding: 30px 0;text-align: center;line-height: 38px;font-size: 16px;}
+.container .login-box .login-process .succeed-tip .color-blue{color: #5497e1;}
+
+
