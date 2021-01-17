@@ -592,51 +592,51 @@
                 </el-dropdown>
               </el-dropdown-item>
 
-              <el-dropdown-item>
-                <el-dropdown style="margin-left: 10px;">
-                  <el-button type="primary" size="small">
-                    CSV文件<i class="el-icon-arrow-down el-icon--right"></i>
-                  </el-button>
-                  <el-dropdown-menu slot="dropdown">
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHA1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHA</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+              <!--<el-dropdown-item>-->
+                <!--<el-dropdown style="margin-left: 10px;">-->
+                  <!--<el-button type="primary" size="small">-->
+                    <!--CSV文件<i class="el-icon-arrow-down el-icon&#45;&#45;right"></i>-->
+                  <!--</el-button>-->
+                  <!--<el-dropdown-menu slot="dropdown">-->
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHA1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHA</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHB1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHB</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHB1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHB</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHC1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHC</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHC1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHC</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                  </el-dropdown-menu>
-                </el-dropdown>
-              </el-dropdown-item>
+                  <!--</el-dropdown-menu>-->
+                <!--</el-dropdown>-->
+              <!--</el-dropdown-item>-->
             </el-dropdown-menu>
           </el-dropdown>
           <el-button style="margin-left:5px" :disabled="count1 !== 3" size="small" type="primary" @click="getRxyData1">
@@ -683,51 +683,51 @@
                 </el-dropdown>
               </el-dropdown-item>
 
-              <el-dropdown-item>
-                <el-dropdown style="margin-left: 10px;">
-                  <el-button type="primary" size="small">
-                    CSV文件<i class="el-icon-arrow-down el-icon--right"></i>
-                  </el-button>
-                  <el-dropdown-menu slot="dropdown">
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHA1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHA</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+              <!--<el-dropdown-item>-->
+                <!--<el-dropdown style="margin-left: 10px;">-->
+                  <!--<el-button type="primary" size="small">-->
+                    <!--CSV文件<i class="el-icon-arrow-down el-icon&#45;&#45;right"></i>-->
+                  <!--</el-button>-->
+                  <!--<el-dropdown-menu slot="dropdown">-->
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHA1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHA</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHB1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHB</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHB1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHB</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHC1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHC</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHC1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHC</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                  </el-dropdown-menu>
-                </el-dropdown>
-              </el-dropdown-item>
+                  <!--</el-dropdown-menu>-->
+                <!--</el-dropdown>-->
+              <!--</el-dropdown-item>-->
             </el-dropdown-menu>
           </el-dropdown>
           <br>
@@ -770,51 +770,51 @@
                 </el-dropdown>
               </el-dropdown-item>
 
-              <el-dropdown-item>
-                <el-dropdown style="margin-left: 10px;">
-                  <el-button type="primary" size="small">
-                    CSV文件<i class="el-icon-arrow-down el-icon--right"></i>
-                  </el-button>
-                  <el-dropdown-menu slot="dropdown">
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHA1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHA</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+              <!--<el-dropdown-item>-->
+                <!--<el-dropdown style="margin-left: 10px;">-->
+                  <!--<el-button type="primary" size="small">-->
+                    <!--CSV文件<i class="el-icon-arrow-down el-icon&#45;&#45;right"></i>-->
+                  <!--</el-button>-->
+                  <!--<el-dropdown-menu slot="dropdown">-->
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHA1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHA</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHB1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHB</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHB1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHB</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHC1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHC</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHC1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHC</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                  </el-dropdown-menu>
-                </el-dropdown>
-              </el-dropdown-item>
+                  <!--</el-dropdown-menu>-->
+                <!--</el-dropdown>-->
+              <!--</el-dropdown-item>-->
             </el-dropdown-menu>
           </el-dropdown>
 
@@ -858,51 +858,51 @@
                 </el-dropdown>
               </el-dropdown-item>
 
-              <el-dropdown-item>
-                <el-dropdown style="margin-left: 10px;">
-                  <el-button type="primary" size="small">
-                    CSV文件<i class="el-icon-arrow-down el-icon--right"></i>
-                  </el-button>
-                  <el-dropdown-menu slot="dropdown">
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHA1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHA</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+              <!--<el-dropdown-item>-->
+                <!--<el-dropdown style="margin-left: 10px;">-->
+                  <!--<el-button type="primary" size="small">-->
+                    <!--CSV文件<i class="el-icon-arrow-down el-icon&#45;&#45;right"></i>-->
+                  <!--</el-button>-->
+                  <!--<el-dropdown-menu slot="dropdown">-->
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHA1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHA</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHB1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHB</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHB1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHB</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHC1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHC</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHC1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHC</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                  </el-dropdown-menu>
-                </el-dropdown>
-              </el-dropdown-item>
+                  <!--</el-dropdown-menu>-->
+                <!--</el-dropdown>-->
+              <!--</el-dropdown-item>-->
             </el-dropdown-menu>
           </el-dropdown>
           <el-button style="margin-left:5px" :disabled="count2 !== 3" size="small" type="primary" @click="getRxyData2">
@@ -949,51 +949,51 @@
                 </el-dropdown>
               </el-dropdown-item>
 
-              <el-dropdown-item>
-                <el-dropdown style="margin-left: 10px;">
-                  <el-button type="primary" size="small">
-                    CSV文件<i class="el-icon-arrow-down el-icon--right"></i>
-                  </el-button>
-                  <el-dropdown-menu slot="dropdown">
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHA1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHA</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+              <!--<el-dropdown-item>-->
+                <!--<el-dropdown style="margin-left: 10px;">-->
+                  <!--<el-button type="primary" size="small">-->
+                    <!--CSV文件<i class="el-icon-arrow-down el-icon&#45;&#45;right"></i>-->
+                  <!--</el-button>-->
+                  <!--<el-dropdown-menu slot="dropdown">-->
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHA1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHA</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHB1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHB</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHB1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHB</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHC1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHC</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHC1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHC</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                  </el-dropdown-menu>
-                </el-dropdown>
-              </el-dropdown-item>
+                  <!--</el-dropdown-menu>-->
+                <!--</el-dropdown>-->
+              <!--</el-dropdown-item>-->
             </el-dropdown-menu>
           </el-dropdown>
           <br>
@@ -1036,51 +1036,51 @@
                 </el-dropdown>
               </el-dropdown-item>
 
-              <el-dropdown-item>
-                <el-dropdown style="margin-left: 10px;">
-                  <el-button type="primary" size="small">
-                    CSV文件<i class="el-icon-arrow-down el-icon--right"></i>
-                  </el-button>
-                  <el-dropdown-menu slot="dropdown">
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHA1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHA</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+              <!--<el-dropdown-item>-->
+                <!--<el-dropdown style="margin-left: 10px;">-->
+                  <!--<el-button type="primary" size="small">-->
+                    <!--CSV文件<i class="el-icon-arrow-down el-icon&#45;&#45;right"></i>-->
+                  <!--</el-button>-->
+                  <!--<el-dropdown-menu slot="dropdown">-->
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHA1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHA</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHB1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHB</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHB1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHB</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHC1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHC</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHC1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHC</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                  </el-dropdown-menu>
-                </el-dropdown>
-              </el-dropdown-item>
+                  <!--</el-dropdown-menu>-->
+                <!--</el-dropdown>-->
+              <!--</el-dropdown-item>-->
             </el-dropdown-menu>
           </el-dropdown>
           <br>
@@ -1123,51 +1123,51 @@
                 </el-dropdown>
               </el-dropdown-item>
 
-              <el-dropdown-item>
-                <el-dropdown style="margin-left: 10px;">
-                  <el-button type="primary" size="small">
-                    CSV文件<i class="el-icon-arrow-down el-icon--right"></i>
-                  </el-button>
-                  <el-dropdown-menu slot="dropdown">
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHA1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHA</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+              <!--<el-dropdown-item>-->
+                <!--<el-dropdown style="margin-left: 10px;">-->
+                  <!--<el-button type="primary" size="small">-->
+                    <!--CSV文件<i class="el-icon-arrow-down el-icon&#45;&#45;right"></i>-->
+                  <!--</el-button>-->
+                  <!--<el-dropdown-menu slot="dropdown">-->
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHA1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHA</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHB1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHB</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHB1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHB</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHC1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHC</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHC1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHC</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                  </el-dropdown-menu>
-                </el-dropdown>
-              </el-dropdown-item>
+                  <!--</el-dropdown-menu>-->
+                <!--</el-dropdown>-->
+              <!--</el-dropdown-item>-->
             </el-dropdown-menu>
           </el-dropdown>
           <el-button style="margin-left:5px" :disabled="count3 !== 3" size="small" type="primary" @click="getRxyData3">
@@ -1214,51 +1214,51 @@
                 </el-dropdown>
               </el-dropdown-item>
 
-              <el-dropdown-item>
-                <el-dropdown style="margin-left: 10px;">
-                  <el-button type="primary" size="small">
-                    CSV文件<i class="el-icon-arrow-down el-icon--right"></i>
-                  </el-button>
-                  <el-dropdown-menu slot="dropdown">
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHA1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHA</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+              <!--<el-dropdown-item>-->
+                <!--<el-dropdown style="margin-left: 10px;">-->
+                  <!--<el-button type="primary" size="small">-->
+                    <!--CSV文件<i class="el-icon-arrow-down el-icon&#45;&#45;right"></i>-->
+                  <!--</el-button>-->
+                  <!--<el-dropdown-menu slot="dropdown">-->
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHA1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHA</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHB1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHB</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHB1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHB</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHC1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHC</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHC1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHC</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                  </el-dropdown-menu>
-                </el-dropdown>
-              </el-dropdown-item>
+                  <!--</el-dropdown-menu>-->
+                <!--</el-dropdown>-->
+              <!--</el-dropdown-item>-->
             </el-dropdown-menu>
           </el-dropdown>
           <br>
@@ -1301,51 +1301,51 @@
                 </el-dropdown>
               </el-dropdown-item>
 
-              <el-dropdown-item>
-                <el-dropdown style="margin-left: 10px;">
-                  <el-button type="primary" size="small">
-                    CSV文件<i class="el-icon-arrow-down el-icon--right"></i>
-                  </el-button>
-                  <el-dropdown-menu slot="dropdown">
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHA1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHA</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+              <!--<el-dropdown-item>-->
+                <!--<el-dropdown style="margin-left: 10px;">-->
+                  <!--<el-button type="primary" size="small">-->
+                    <!--CSV文件<i class="el-icon-arrow-down el-icon&#45;&#45;right"></i>-->
+                  <!--</el-button>-->
+                  <!--<el-dropdown-menu slot="dropdown">-->
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHA1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHA</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHB1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHB</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHB1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHB</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                    <el-dropdown-item>
-                      <el-upload
-                        accept="txt"
-                        :action="host+'/transformer/readFile/readTxt'"
-                        :data="uploadData"
-                        :on-success="uploadFileHOHC1"
-                        name="multipartFile"
-                        :headers="uploadHeader">
-                        <el-button size="small" type="primary">HOHC</el-button>
-                      </el-upload>
-                    </el-dropdown-item>
+                    <!--<el-dropdown-item>-->
+                      <!--<el-upload-->
+                        <!--accept="txt"-->
+                        <!--:action="host+'/transformer/readFile/readTxt'"-->
+                        <!--:data="uploadData"-->
+                        <!--:on-success="uploadFileHOHC1"-->
+                        <!--name="multipartFile"-->
+                        <!--:headers="uploadHeader">-->
+                        <!--<el-button size="small" type="primary">HOHC</el-button>-->
+                      <!--</el-upload>-->
+                    <!--</el-dropdown-item>-->
 
-                  </el-dropdown-menu>
-                </el-dropdown>
-              </el-dropdown-item>
+                  <!--</el-dropdown-menu>-->
+                <!--</el-dropdown>-->
+              <!--</el-dropdown-item>-->
             </el-dropdown-menu>
           </el-dropdown>
           <br>
@@ -1502,7 +1502,8 @@
   export default {
     data() {
       return {
-        host: 'http://146.56.201.46:42109',
+        // host: 'http://146.56.201.46:42109',
+        host: 'http://192.168.10.115:42109',
         dianydjFlag: false,
         uploadData: {fileType: '1'},
         uploadHeader: {},
