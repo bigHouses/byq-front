@@ -194,8 +194,6 @@
         queryAllUser(this.listQuery).then(response => {
           this.accountList = response.data.list
           this.totalRow = response.data.total
-          this.accountList[0].password = 123456
-          this.accountList[1].password = 123456
           this.loading = false
         })
       },
