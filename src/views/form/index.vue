@@ -1349,125 +1349,108 @@
             </el-dropdown-menu>
           </el-dropdown>
           <br>
-
+          <el-input readonly value="" class="verticalInput border-l  border-b"></el-input>
+          <el-input readonly value="绕组状态评估结果" class="border-b  border-r w220"></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.heg" class="border-b  border-r w738"></el-input>
+          <br>
           <!--短路冲击数据-->
-          <el-input readonly value="短" class="verticalInput border-l  border-r h80 "></el-input>
-          <el-input readonly value="   日    期" class=" border-r h80 w100 "></el-input>
-          <el-input readonly value="  故  障  位  置" class=" border-r h80 w120 "></el-input>
-          <el-input readonly value="故障电流(kA)" class=" border-r h80 w100 "></el-input>
-          <el-input readonly value="持续时长(ms)" class=" border-r h80 w100 "></el-input>
-          <span class="flex-down">
-          <el-input readonly value="         冲   击   次   数" class=" border-b border-r w200 flex-up"></el-input>
-           <el-input readonly value="    3-5In" class="border-t  border-r w100"></el-input>
-           <el-input readonly value="    ≥5In" class="border-t  border-r border-r w100"></el-input>
-         </span>
-          <span style="margin-left: 200px;" class="flex-down">
-          <el-input readonly value="  中  压  侧" class=" border-r w100 flex-up"></el-input>
-          <el-input readonly value=" 额 定 电 流" class="mt1 border-r w100"></el-input>
-        </span>
-          <span style="margin-left: 300px;" class="flex-down">
-          <el-input readonly value="  低  压  侧" class=" border-r w100 flex-up"></el-input>
-          <el-input readonly value=" 额 定 电 流" class="mt1 border-r w100"></el-input>
-        </span>
-          <span style="margin-left: 400px;" class="flex-down">
-          <el-input readonly value="  倍数(故障电流/" class=" border-r w138 flex-up"></el-input>
-          <el-input readonly value="    额定电流)" class="mt1 border-r w138"></el-input>
-        </span>
+          <el-input readonly value="短" class="verticalInput border-l border-r "></el-input>
+          <el-input readonly value="录入数据" class=" border-r border-b" style="width: 538px;"></el-input>
+          <el-input readonly value="累积效应评估结果" class=" border-r border-b" style="width: 420px;"></el-input>
           <br>
 
-          <el-input readonly value="路" class="verticalInput border-l  border-r "></el-input>
+          <el-input readonly value="路" class="verticalInput border-l h80 border-r "></el-input>
+          <el-input readonly value="冲击次数" class=" border-r h80 w100 "></el-input>
+          <el-input readonly value="故障电流(kA)" class=" border-r h80 w100 "></el-input>
+          <el-input readonly value="          故  障  位  置" class=" border-r h80 w200 "></el-input>
+          <span class="flex-down">
+            <el-input readonly value="  倍数(故障电流/" class=" border-r w138 flex-up"></el-input>
+            <el-input readonly value="    额定电流)" class="mt1 border-r w138"></el-input>
+          </span>
+          <el-input readonly value="形变量(mm)" class=" border-r h80 w100 " style="margin-left: 138px;"></el-input>
+          <el-input readonly value="残余等效应力(MPa)" class=" border-r h80 w220 "></el-input>
+          <el-input readonly value="变形程度" class=" border-r h80 w100 " ></el-input>
+          <br>
+
+          <el-input readonly value="冲" class="verticalInput border-l  border-r "></el-input>
           <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].riq"
                     class="border-t border-r w100 "></el-input>
           <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].guzwz"
-                    class="border-t border-r w120 "></el-input>
+                    class="border-t border-r w100 "></el-input>
           <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].guzdl"
-                    class=" border-r border-t w100 "></el-input>
+                    class=" border-r border-t w200 "></el-input>
           <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].chixsc"
-                    class="border-t border-r w100 "></el-input>
+                    class="border-t border-r w138 "></el-input>
           <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].chongjcs3"
-                    class="border-t border-r w200 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].zhongyceddl"
                     class="border-t border-r w100 "></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].zhongyceddl"
+                    class="border-t border-r w220 "></el-input>
           <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].diyceddl"
                     class="border-t border-r w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].beis"
-                    class="border-t border-r w138 "></el-input>
-          <br>
-          <el-input readonly value="冲" class="verticalInput border-l  border-r "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[1].riq"
-                    class="border-t border-r w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[1].guzwz"
-                    class="border-t border-r w120 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[1].guzdl"
-                    class=" border-r border-t w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[1].chixsc"
-                    class="border-t border-r w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[1].chongjcs3"
-                    class="border-t border-r w200 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[1].zhongyceddl"
-                    class="border-t border-r w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[1].diyceddl"
-                    class="border-t border-r w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[1].beis"
-                    class="border-t border-r w138 "></el-input>
           <br>
           <el-input readonly value="击" class="verticalInput border-l  border-r "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[2].riq"
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].riq"
                     class="border-t border-r w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[2].guzwz"
-                    class="border-t border-r w120 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[2].guzdl"
-                    class=" border-r border-t w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[2].chixsc"
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].guzwz"
                     class="border-t border-r w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[2].chongjcs3"
-                    class="border-t border-r w200 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[2].zhongyceddl"
-                    class="border-t border-r w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[2].diyceddl"
-                    class="border-t border-r w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[2].beis"
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].guzdl"
+                    class=" border-r border-t w200 "></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].chixsc"
                     class="border-t border-r w138 "></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].chongjcs3"
+                    class="border-t border-r w100 "></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].zhongyceddl"
+                    class="border-t border-r w220 "></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].diyceddl"
+                    class="border-t border-r w100 "></el-input>
           <br>
           <el-input readonly value="数" class="verticalInput border-l  border-r "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[3].riq"
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].riq"
                     class="border-t border-r w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[3].guzwz"
-                    class="border-t border-r w120 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[3].guzdl"
-                    class=" border-r border-t w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[3].chixsc"
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].guzwz"
                     class="border-t border-r w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[3].chongjcs3"
-                    class="border-t border-r w200 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[3].zhongyceddl"
-                    class="border-t border-r w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[3].diyceddl"
-                    class="border-t border-r w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[3].beis"
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].guzdl"
+                    class=" border-r border-t w200 "></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].chixsc"
                     class="border-t border-r w138 "></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].chongjcs3"
+                    class="border-t border-r w100 "></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].zhongyceddl"
+                    class="border-t border-r w220 "></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].diyceddl"
+                    class="border-t border-r w100 "></el-input>
           <br>
           <el-input readonly value="据" class="verticalInput border-l  border-r"></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[4].riq"
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].riq"
                     class="border-t border-r w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[4].guzwz"
-                    class="border-t border-r w120 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[4].guzdl"
-                    class=" border-r border-t w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[4].chixsc"
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].guzwz"
                     class="border-t border-r w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[4].chongjcs3"
-                    class="border-t border-r w200 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[4].zhongyceddl"
-                    class="border-t border-r w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[4].diyceddl"
-                    class="border-t border-r w100 "></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[4].beis"
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].guzdl"
+                    class=" border-r border-t w200 "></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].chixsc"
                     class="border-t border-r w138 "></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].chongjcs3"
+                    class="border-t border-r w100 "></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].zhongyceddl"
+                    class="border-t border-r w220 "></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].diyceddl"
+                    class="border-t border-r w100 "></el-input>
           <br>
-          <el-input readonly value="" class="verticalInput border-l border-t border-r border-b"></el-input>
-          <el-input readonly value="是否合格" class="border-b border-t border-r w220"></el-input>
-          <el-input :readonly="readOnlyFlag" v-model="form.heg" class="border-b border-t border-r w738"></el-input>
+          <el-input readonly value="" class="verticalInput border-l  border-r border-b"></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].riq"
+                    class="border-t border-b border-r w100 "></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].guzwz"
+                    class="border-t border-b border-r w100 "></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].guzdl"
+                    class=" border-r border-b border-t w200 "></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].chixsc"
+                    class="border-t border-b border-r w138 "></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].chongjcs3"
+                    class="border-t border-b border-r w100 "></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].zhongyceddl"
+                    class="border-t border-b border-r w220 "></el-input>
+          <el-input :readonly="readOnlyFlag" v-model="form.shortCircuitList[0].diyceddl"
+                    class="border-t border-b border-r w100 "></el-input>
 
         </div>
 
@@ -1520,7 +1503,7 @@
         count2: 0,
         count3: 0,
         dataURL: '',
-        showForm: false,
+        showForm: true,
         readOnlyFlag: false,
         isEditExist: false,
         uploadReportEnable: true,

@@ -69,6 +69,7 @@
 .w378 {
   width: 378px;
 }
+
 .h41 {
   height: 41px;
 }
@@ -76,12 +77,15 @@
 .w200 {
   width: 200px;
 }
+
 .w220 {
   width: 220px;
 }
+
 .w738 {
   width: 738px;
 }
+
 .w157 {
   width: 157px;
 }
@@ -122,8 +126,6 @@
   margin-left: 45px;
 }
 
-
-
 .w120 {
   width: 120px;
 }
@@ -157,6 +159,7 @@
 .ml300 {
   margin-left: 300px;
 }
+
 .ml100 {
   margin-left: 115px;
 }
@@ -164,6 +167,7 @@
 .mb20 {
   margin-bottom: 20px;
 }
+
 .mt20 {
   margin-top: 20px;
 }
@@ -174,4 +178,12 @@
 
 .ml700 {
   margin-left: 700px;
+}
+
+.w600 {
+  width: 600px;
+}
+
+.w400 {
+  width: 400px;
 }
